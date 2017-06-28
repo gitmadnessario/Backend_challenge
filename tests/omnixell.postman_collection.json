@@ -1,0 +1,129 @@
+{
+	"variables": [],
+	"info": {
+		"name": "omnixell",
+		"_postman_id": "da016afe-e032-1939-3e31-b3fbb4cb2337",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/user/",
+			"request": {
+				"url": "http://localhost:8080/user/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "test",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "kostas",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "25",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "album",
+							"value": "King Of Kings",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/",
+			"request": {
+				"url": "http://localhost:8080/user/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/59519da002495f16d002eb96",
+			"request": {
+				"url": "http://localhost:8080/user/59519da002495f16d002eb96",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/59519da002495f16d002eb96",
+			"request": {
+				"url": "http://localhost:8080/user/59519da002495f16d002eb96",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "kostas",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "80",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "album",
+							"value": "Primo Victoria",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/59519da002495f16d002eb96",
+			"request": {
+				"url": "http://localhost:8080/user/59519da002495f16d002eb96",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "REST-api",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.1.1",
+        "mongoose": "4.11.0",
+		"body-parser": "~1.0.1",
+		"seneca": "3.3.0",
+		"mocha": "3.4.2",
+		"sinon": "2.3.5",
+		"unit.js": "2.0.0",
+		"chai": "4.0.2",
+		"chai-http": "3.0.0",
+		"sinon": "2.3.5",
+		"seneca-web": "2.1.0",
+		"seneca-web-adapter-express": "1.0.2"
+    },
+	
+	"scripts": {
+      "test": "mocha -R spec tests/mocha_test",
+	  "start": "start.bat",
+	  "client": "node client.js"
+    }
+}
+
